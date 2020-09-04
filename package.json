@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://alvislim.github.io/<projectName>",
   "scripts": {
-    "start": "node-sass -w scss/ -o main/css/ --recursive"
+    "sass": "node-sass -w scss/ -o main/css/ --recursive",
+    "deploy": "gh-pages -d main"
   },
   "keywords": [],
   "author": "",
